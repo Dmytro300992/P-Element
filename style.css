@@ -1,0 +1,27 @@
+p {
+    color: black;
+    font-size: 20px;
+    position: relative;
+  }
+
+  p::before {
+    content: '\1F676L';
+    color: rgb(116, 25, 103);
+    font-size: 40px;
+  }
+
+  p::after {
+    content: '\1F677';
+    color: rgb(104, 8, 133);
+    font-size: 40px;
+  }
+
+  p::first-line {
+    color: rgb(255, 208, 0);
+    
+  }
+  
+  .font-face {
+  font-family: 'OpenSans-Italic';
+    src: yrl("/fonts/OpenSans-Italic.ttf")
+  }
